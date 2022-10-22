@@ -1,0 +1,10 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;/home/rstudiorstudio@9a44d8888e87:~$ [Krstudio@9a44d8888e87:~$ git init
+Initialized empty Git repository in /home/rstudio/.git/
+]0;/home/rstudiorstudio@9a44d8888e87:~$ git [K[K[K[Kgit remote add origin https://github.com/ResearchMethods-ZHAW/blog.tagesanzeiger.ch.git
+]0;/home/rstudiorstudio@9a44d8888e87:~$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+]0;/home/rstudiorstudio@9a44d8888e87:~$ git add .

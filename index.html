@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>index</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/quarto.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="index_files/libs/quarto-html/anchor.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Der nachfolgende Artikel von Marco Kovic wurde auf dem Datenblog des Tagesanzeigers (blog.tagesanzeiger.ch) veröffentlicht. Er ist dort mittlerweile nicht mehr verfügbar, wesshalb wir den Inhalt hier hosten*</p>
+</div>
+</div>
+</div>
+<p><img src="img_header.png" class="img-fluid"></p>
+<section id="je-weniger-ausländer-desto-mehr-ja-stimmen-wirklich" class="level1">
+<h1>Je weniger Ausländer, desto mehr Ja-Stimmen? Wirklich?</h1>
+<blockquote class="blockquote">
+<p>Kurz nach der Abstimmung zur Zuwanderungsinitiative hiess es: Bezirke mit geringem Ausländeranteil stimmten dem SVP-Begehren eher zu. Hält der Befund einer tieferen Analyse stand? Marko Kovic vom IPMZ der Uni Zürich hat genau hingeschaut.</p>
+</blockquote>
+<p>Seit der Abstimmung über die SVP-Zuwanderungsinitiative sind einige Wochen vergangen. Jetzt, wo sich die Gemüter beruhigen, kann eine detailliertere Analyse beginnen.</p>
+<p>An Erklärungsversuchen für das Abstimmungsergebnis mangelt es nicht. Schon kurz nach der Abstimmung wurde Folgendes geäussert: Der Anteil an Ja-Stimmen sei dort eher hoch gewesen, wo es weniger Ausländer gibt. Demgemäss hätten gerade jene Leute für die Initiative gestimmt, die die Personenfreizügigkeit selber gar nicht im Alltag spüren.</p>
+<p>Doch hält dieser Befund auch einer tieferen Analyse stand?</p>
+<section id="kantonsebene" class="level2">
+<h2 class="anchored" data-anchor-id="kantonsebene">1 - Kantonsebene</h2>
+<p>Als erste Annäherung bietet sich ein Blick auf das Verhältnis von Ausländer- und Ja-Anteil auf Ebene der Kantone an:</p>
+<p><img src="Kantone-2.png" class="img-fluid"></p>
+<p>Die X-Achse bildet den Ausländeranteil in Prozent (0,3 = 30%), die Y-Achse den Anteil der Ja-Stimmen in Prozent (0,5 = 50%) ab. Von blossem Auge scheint die vermutete Tendenz gegeben: Weniger Ausländer bedeuten mehr Ja-Stimmen. Etwas besser interpretierbar ist das Bild mit einer Trendlinie:</p>
+<p><img src="Kantone-LOESS.png" class="img-fluid"></p>
+<p>Der Zusammenhang scheint in die vermutete Richtung zu gehen, aber er ist nur annähernd linear. Der Graubereich über und unter der blauen Trendlinie sind die 95%-Konfidenzintervalle. Das bedeutet, dass der wahre Trend mit 95%-iger Wahrscheinlichkeit innerhalb dieser grauen Fläche liegt. Weil die Fläche sehr breit ist, ist die Unsicherheit zu gross, um hier schon Aussagen über Zusammenhänge zu machen.</p>
+</section>
+<section id="gemeindeebene" class="level2">
+<h2 class="anchored" data-anchor-id="gemeindeebene">2 - Gemeindeebene</h2>
+<p>Die Daten auf Kantonsebene sind zu grob. Es lohnt sich darum, die Daten einzelner Gemeinden zu vergleichen:</p>
+<p><img src="Gemeinden-2-986x939.png" class="img-fluid"></p>
+<p>Oben links scheint es eine Sammlung von Gemeinden zu geben, wo sehr wenige Ausländer vorhanden sind und der Anteil an Ja-Stimmen hoch ist. Von blossem Auge ist es aber schwierig, mehr aus dieser Grafik herauszulesen. Auch hier hilft eine Trendlinie.</p>
+<p><img src="Gemeinden-GAM-2-986x939.png" class="img-fluid"></p>
+<p>Der Verlauf der Trendlinie ist interessant: Sie ist nicht wie vermutet linear, sondern leicht kurvenförmig. Was bedeutet das?</p>
+<p>Es gibt scheinbar einen Bereich der Punktwolke, wo ein Mehr an Ausländern mit weniger Ja-Stimmen einhergeht. Ab knapp 35% Ausländeranteil ist dieser Zusammenhang aber nicht mehr gegeben. Wiederum ist die graue Fläche der Konfidenzintervalle wichtig. In jenem Bereich, wo der vermutete Zusammenhang nicht mehr gegeben ist, fächert der Graubereich deutlich auf. Der Grund dafür ist, dass in diesem Bereich die Anzahl Gemeinden gering ist und die Berechnung eines Trends entsprechend unsicher.</p>
+</section>
+<section id="gemeindeebene-nach-kantonen" class="level2">
+<h2 class="anchored" data-anchor-id="gemeindeebene-nach-kantonen">3 - Gemeindeebene, nach Kantonen</h2>
+<p>Was passiert, wenn wir die Zusammenhänge auf Gemeindeebene betrachten, aber separat nach Kantonen?</p>
+<p><img src="Gemeinden-x-Kantone-2-986x857.png" class="img-fluid"></p>
+<p>In erster Linie ist in dieser Grafik die unterschiedliche Streuung innerhalb der Kantone zu sehen. In welche Richtung allfällige Zusammenhänge gehen, zeigen auch hier Trendlinien:</p>
+<p><img src="Gemeinden-x-Kantone-LOESS-2-986x857.png" class="img-fluid"> Der Nutzen der Trendlinien ist beschränkt, weil jene Kantone mit nur wenigen Gemeinden keine sinnvolle Berechnung solcher Linien zulassen. Definitive Schlüsse können auch hier nicht gezogen werden, aber innerhalb einiger Kantone (Schwyz, Thurgau, Bern, Freiburg) ist der vermutete negative Zusammenhang einigermassen deutlich abgebildet.</p>
+</section>
+<section id="gemeindeebene-nach-gemeindegrösse" class="level2">
+<h2 class="anchored" data-anchor-id="gemeindeebene-nach-gemeindegrösse">4 - Gemeindeebene, nach Gemeindegrösse</h2>
+<p>Könnte es vielleicht sein, dass weder alle Gemeinden zusammen noch die Gemeinden nach Kantonen die Antwort liefern, sondern zusätzlich noch die Gemeindegrösse eine Rolle spielt?</p>
+<p>In der folgenden Grafik sind die Gemeinden in Gruppen gemäss ihrer Grösse eingeteilt. Dabei handelt es sich nicht um fixe Gruppengrössen, z.B. mit Gemeinden von 500 bis 5000 Einwohnern. Stattdessen sind die Gruppen anhand sogenannter Quantile eingeteilt:</p>
+<p><img src="Gemeinden-x-Quantile-2-986x637.png" class="img-fluid"></p>
+<p>Die Gruppe “0% - 25%” bedeutet, dass diese Gruppe die 25% kleinsten Gemeinden umfasst. Konkret, dass aus den Einwohnerzahlen der Gemeinden hervorgeht, dass 25% aller Gemeinden weniger als 591 Einwohner haben. Die nächsten 25% umfassen Gemeinden zwischen 591 und 1345.5 Einwohnern. Das nächste Viertel, von 50% - 75%, umfasst alle Gemeinden zwischen 1345.5 und 3284.25 Einwohnern. Das letzte Viertel von 75% bis 100% ist nochmals aufgeteilt in drei Untergruppen, weil die Anzahl Einwohner in diesem Bereich rasant zunimmt. Die Gruppe von 75% bis 90% umfasst Gemeinden in der Grösse von 3284.25 bis 7048.6 Einwohner; die Gruppe von 90% bis 99% Gemeindegrössen von 7048.6 bis 27214.74, und das Top-1% alle Gemeinden über 27214.74 Einwohner.</p>
+<p>Mit steigender Einwohnerzahl sind die Punkte weniger dicht beieinander. Was bedeutet das für den Zusammenhang zwischen Ausländer- und Ja-Anteil? Wiederum helfen Trendlinien weiter:</p>
+<p><img src="Gemeinden-x-Quantile-LOESS-2-986x637.png" class="img-fluid"></p>
+<p>Einen deutlichen Zusammenhang in die vermutete Richtung zeigt nur die Gruppe von 50% bis 75%. In kleinen Gemeinden mit zwischen c1400 und 3300 Einwohnern ist der Anteil an Ja-Stimmen umso höher, je weniger Ausländer dort wohnen. In den Gruppen mit noch kleineren Gemeinden ist diese Tendenz dort zu sehen, wo die Punktwolke dicht ist. Sobald die Punktwolke weniger dicht ist, wechselt die Trendlinie die Richtung.</p>
+<p>Könnte es vielleicht sein, dass in Kleinstgemeinden ab einem gewissen Schwellenwert beim Ausländeranteil ein Gefühl von Entfremdung eintritt?</p>
+</section>
+<section id="korrelationen" class="level2">
+<h2 class="anchored" data-anchor-id="korrelationen">5 - Korrelationen</h2>
+<p>Ein Herantasten an die Daten über Grafiken kann ergänzt werden mit einer Berechnung von Korrelationen, einem einfachen Zusammenhangsmass, welches angibt, wie stark (Korrelationskoeffizient), wie zufällig (höhere Signifikanz = Zufall unwahrscheinlicher), und in welche Richtung (positiv oder negativ) Werte zusammenhängen.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Gruppe</th>
+<th>Korr.-Koeffizient</th>
+<th>Signifikanz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AG</td>
+<td>-0.192</td>
+<td>**</td>
+</tr>
+<tr class="even">
+<td>AI</td>
+<td>-0.783</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>AR</td>
+<td>-0.089</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>BE</td>
+<td>-0.4</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>BL</td>
+<td>-0.214</td>
+<td>*</td>
+</tr>
+<tr class="even">
+<td>BS</td>
+<td>0.592</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>FR</td>
+<td>-0.338</td>
+<td>**</td>
+</tr>
+<tr class="even">
+<td>GE</td>
+<td>0.236</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>GL</td>
+<td>-0.407</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>GR</td>
+<td>-0.029</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>JU</td>
+<td>-0.148</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>LU</td>
+<td>-0.305</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>NE</td>
+<td>-0.044</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>NW</td>
+<td>-0.202</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>OW</td>
+<td>-0.406</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>SG</td>
+<td>-0.223</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>SH</td>
+<td>-0.261</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>SO</td>
+<td>-0.041</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>SZ</td>
+<td>-0.589</td>
+<td>***</td>
+</tr>
+<tr class="even">
+<td>TG</td>
+<td>-0.518</td>
+<td>**</td>
+</tr>
+<tr class="odd">
+<td>TI</td>
+<td>0.102</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>UR</td>
+<td>-0.385</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>VD</td>
+<td>-0.158</td>
+<td>**</td>
+</tr>
+<tr class="even">
+<td>VS</td>
+<td>-0.05</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>ZG</td>
+<td>0.041</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>ZH</td>
+<td>-0.281</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>0% - 25%</td>
+<td>-0.182</td>
+<td>***</td>
+</tr>
+<tr class="even">
+<td>25% - 50%</td>
+<td>-0.249</td>
+<td>***</td>
+</tr>
+<tr class="odd">
+<td>50% - 75%</td>
+<td>-0.303</td>
+<td>***</td>
+</tr>
+<tr class="even">
+<td>75% - 90%</td>
+<td>-0.106</td>
+<td>*</td>
+</tr>
+<tr class="odd">
+<td>90% - 99%</td>
+<td>-0.094</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td>99% - 100%</td>
+<td>0.202</td>
+<td>-</td>
+</tr>
+<tr class="odd">
+<td>Schweiz</td>
+<td>-0.222</td>
+<td>**</td>
+</tr>
+</tbody>
+</table>
+<p>Die Tabelle zeigt mindestens vier Dinge:</p>
+<ul>
+<li>Der Zusammenhang ist nicht universal. Nicht jede Gruppe weist einen signifikanten, d.h., wahrscheinlich nicht-zufälligen Zusammenhang zwischen Ausländer- und Ja-Anteil auf.</li>
+<li>Der Zusammenhang ist, wenn signifikant, dann fast immer negativ. Der Kanton Genf bildet die einzige Ausnahme.</li>
+<li>Der Zusammenhang ist in kleinen Gemeinden deutlicher vorhanden als in grösseren. Dies äussert sich darin, dass der Effekt bei den drei Gruppen bis 25%, bis 50% und bis 75% stark und signifikant ist.</li>
+<li>Der Zusammenhang ist insgesamt schwach. Auf gesamtschweizerischer Ebene beträgt der Korrelationskoeffizient lediglich -0.25.</li>
+</ul>
+<p>Die Schwäche des Zusammenhanges äussert sich auch darin, dass das sogenannte Bestimmtheitsmass (in diesem Fall einfach der Korrelationskoeffizient im Quadrat), welches angibt, welcher Teil der Verteilung durch den Zusammenhang erklärt wird, auf gesamtschweizerischer Ebene nur 0.067 beträgt. Das bedeutet, dass nur knapp 6.7% des Abstimmungsergebnisses durch den Ausländeranteil “erklärt” werden. Bei jener Gruppe aus der Tabelle, in der der Korrelationskoeffizient am stärksten ist (Kanton Schwyz), beträgt das Bestimmtheitsmass immerhin 0.527. D.h., im Kanton Schwyz “erklärt” der Ausländeranteil 53% des Abstimmungsergebnisses.</p>
+</section>
+<section id="fazit-vermutlich-ja-aber" class="level2">
+<h2 class="anchored" data-anchor-id="fazit-vermutlich-ja-aber">Fazit: (Vermutlich) Ja, aber …</h2>
+<p>So umfangreich die hier durchkämmten Daten sein mögen, sie sind immer noch zu grob, um Abstimmungsverhalten wirklich erklären zu können. Menschliches Handeln ist ein komplexes Geflecht von individuellen und sozialen, rationalen und irrationalen Vorgängen, und diese Vorgänge können in Statistiken nur sehr blass abgebildet werden.</p>
+<p>Die Analyse zeigt aber dennoch einige Tendenzen auf. Es scheint, dass in der Tat ein Zusammenhang besteht zwischen dem Ausländeranteil und dem Anteil an Ja-Stimmen. Dieser Zusammenhang ist aber eher schwach und je nach Gruppierungsart der Daten deutlicher oder weniger deutlich oder gar nicht vorhanden. Darum gilt auch hier die goldene Regel: Korrelation darf nicht vorschnell mit Kausalität gleichgesetzt werden.</p>
+<p>Die in diesem Blogeintrag verwendeten Daten stammen vom Bundesamt für Statistik. Die Angaben über die Anteile der ständigen ausländischen Bevölkerung stammen aus dem Jahr 2012. Die Rohdaten sind hier verfügbar.</p>
+<p>Anmerkung: In den ursprünglich verwendeten Rohdaten, wie sie diesem Blogeintrag am 2. März zugrunde lagen, war ein Fehler enthalten. Das hat zu einer leichten Verzerrung geführt, sodass der Zusammenhang zwischen Ausländer- und Ja-Anteil weniger ausgeprägt war als in den korrigierten Grafiken und Berechnungen. Dem aufmerksamen Leser, welcher auf den Fehler hingewiesen hat, danke ich, und entschuldige mich für die mangelnde Sorgfalt.</p>
+<blockquote class="blockquote">
+<p>Marko Kovic hat an der Universität Zürich Politikwissenschaft, Publizistik- und Kommunikationswissenschaft sowie Filmwissenschaft studiert. Schwerpunktmässig interessiert er sich für unkritischen Umgang der klassischen Massenmedien mit (pseudo-)wissenschaftlichen Themen, nicht zuletzt bei “weichen” Disziplinen wie den Sozialwissenschaften. Er ist Präsident des Vereins “Skeptiker Schweiz - Verein für kritisches Denken”. Zum Skeptiker-Blog.</p>
+</blockquote>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

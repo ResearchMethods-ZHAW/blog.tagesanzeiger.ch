@@ -1,0 +1,7 @@
+{
+    "jobs_tab_visibility": "shown",
+    "initial_working_directory": "~",
+    "rmd_chunk_output_inline": false,
+    "latex_preview_on_cursor_idle": "never",
+    "posix_terminal_shell": "bash"
+}
