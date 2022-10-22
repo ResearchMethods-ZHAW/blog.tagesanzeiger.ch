@@ -2,7 +2,9 @@
 format: html
 ---
 
-:::{.callout-note collapse="true"}
+:::{.callout-important collapse="true"}
+
+## Wichtig
 
 Der nachfolgende Artikel von Marco Kovic wurde auf dem Datenblog des Tagesanzeigers (blog.tagesanzeiger.ch) veröffentlicht. Er ist dort mittlerweile nicht mehr verfügbar, wesshalb wir den Inhalt hier hosten.
 
